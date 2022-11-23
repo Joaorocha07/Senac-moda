@@ -5,170 +5,244 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Roboto:wght@300;400;700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap and CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/moda.css">
-    <title>Moda</title>
+    <script src="https://kit.fontawesome.com/14886d26ec.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/progressbar.mim.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 
 <body>
-
-
-    <!-- Menu -->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Moda</font>
-                </font>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="true" aria-label="Alternar de navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse show" id="navbarNav" style="">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Sobre</font>
-                            </font>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Produtos</font>
-                            </font>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Contato</font>
-                            </font>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/registre.html">
-                            <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">Conta</font>
-                            </font>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://user-images.githubusercontent.com/113738853/203542406-aff1314b-d220-44ec-bbd5-597c7b95641e.jpg" class="d-block w-100" class="img-fluid" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Preimeira foto</h5>
-                    <p>Turma senac</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://user-images.githubusercontent.com/113738853/203542409-6ed214dc-426d-4110-ae65-38ae4cb88cfd.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Segunda foto</h5>
-                    <p>Turma senac</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://user-images.githubusercontent.com/113738853/203542412-6d9026f1-e214-438d-8a1f-1f07e849a686.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Terceira foto</h5>
-                    <p>Turma senac</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- Botão Quem somos FOOTER -->
-
-
-
-
-
-    <div class="container">
-        <div class="page-header">
-            <h1>Site de moda</h1>
-            <p>Somos do curso de moda da senac a noite! Estamos desenvolvendo um site para mostrar os
-                nosso trablahos desenvolvidos em sala de aula, aqui dentro vamos mostrar ideias
-                criatividade dentro do mercado de trablho com fotos e personalização dos nossos looks!
-            </p>
-
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="p-3 mb-2 bg-dark text-dark">
-            <div class="text-center">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Quem somos
+    <!-- Cabeçalho da página -->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="" class="navbar-brand">
+                    <img id="logo" src="img/moda-senac.png" alt="img-logo"> Le.Terzi
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <!-- Dentro do menu vão ter essas opções -->
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a class="nav-item nav-link" id="services-menu">Trabalhos</a>
+                        <a class="nav-item nav-link" id="team-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contatos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteudo principal da página -->
+    <main>
+        <!-- Os 3 blocos embaixo das fotos -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Turma senac</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veniam consequatur distinctio
-                            ipsum,
-                            repudiandae nemo aliquam reprehenderit voluptas est id, sint dicta ea, ab eos quod
-                            exercitationem
-                            harum quasi natus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
-                            debitis
-                            aperiam impedit dolores laborum? Sapiente in fuga consequuntur, dicta itaque assumenda
-                            quibusdam
-                            quos ducimus voluptatem architecto. Qui ab molestiae suscipit.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magnam facilis quisquam?
-                            Ratione
-                            tempore reiciendis distinctio suscipit officia soluta incidunt sunt, asperiores illum magnam
-                            unde
-                            accusantium cumque nisi recusandae? Quaerat.
+            <!-- Carrosel 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner-primeira-imagem.jpg" class="d-block img-fluid w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Veja os nossos projetos</h2>
+                        <p>No curso de modas temos varios estilos de look que desenvolvemos em sala de aula</p>
+                        <a href="#" class="main-btn">ver projetos</a>
+                    </div>
+                </div>
+                <!-- Carrosel 2 -->
+                <div class="carousel-item">
+                    <img src="img/banner-segunda-imagem.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Entre em contato conosco!</h2>
+                        <p>Vamos deixar nossas redes socias caso queira perguntar algo sobre nos!</p>
+                        <a href="#" class="main-btn">entrar em contato</a>
+                    </div>
+                </div>
+                <!-- Carrosel 3 -->
+                <div class="carousel-item">
+                    <img src="img/banner-terceira-imagem.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Veja nossos looks</h2>
+                        <p>Vamos mostrar looks para mostramos para vocês</p>
+                        <a href="#" class="main-btn">ver looks</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Seta para os lados -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-                            <div class="modal-footer" text-center>
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
-                                <button type="button" class="btn btn-primary">Salvar</button>
+        <!-- Conteudo do site -->
+        <!-- Sobre o curso de moda -->
+        <div id="about-area">
+            <div class="container sobreCursoModa">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Sobre o curso de moda</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img/sobre-a-turma-de-moda.jpg" alt="Sobre-img">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-title">Nossos alunos e trabalhos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam provident quaerat</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius et cumque sequi quia,</p>
+                        <p>provident fugiat aperiam quam? Hic id laudantium repellat in.</p>
+
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i>Tópico como exemplo de algo</li>
+                            <li><i class="fas fa-check"></i>Tópico como exemplo de algo</li>
+                            <li><i class="fas fa-check"></i>Tópico como exemplo de algo</li>
+                            <li><i class="fas fa-check"></i>Tópico como exemplo de algo</li>
+                            <li><i class="fas fa-check"></i>Tópico como exemplo de algo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trabalhos do curso de moda -->
+        <div id="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Trabalhos que fazemos no curso</h3>
+                    </div>
+
+                    <!-- Primeiro tópico -->
+                    <div class="col-md-4 service-box">
+                        <i class="fa-solid fa-shirt"></i>
+                        <h4>Produção</h4>
+                        <p> atua na organização e produção de desfiles e eventos de moda. É responsável pelo bom
+                            andamento do evento. Também cuida da produção de catálogos, editoriais para revistas e até
+                            campanhas publicitárias.</p>
+                    </div>
+
+                    <!-- Segundo tópico -->
+                    <div class="col-md-4 service-box">
+                        <i class="fa-sharp fa-solid fa-vest-patches"></i>
+                        <h4>Modelagem</h4>
+                        <p>desenvolve moldes a partir dos desenhos de estilistas. Estes moldes servem como orientação
+                            para a produção das peças.</p>
+                    </div>
+
+                    <!-- Terceiro tópico -->
+                    <div class="col-md-4 service-box">
+                        <i class="fa-solid fa-shirt"></i>
+                        <h4>Cordenação</h4>
+                        <p>gerencia a compra ou confecção de coleções em fábricas e lojas. Supervisiona equipes de
+                            trabalho e orienta-as sobre as tendências do mercado.</p>
+                    </div>
+
+                    <!-- Quarto tópico -->
+                    <div class="col-md-4 service-box">
+                        <i class="fa-solid fa-shirt"></i>
+                        <h4>Fotografia</h4>
+                        <p>realiza a produção dos ambientes e dos modelos para sessões fotográficas de moda para
+                            campanhas, catálogos e revistas, entre outros.</p>
+                    </div>
+
+                    <!-- Quinto tópico -->
+                    <div class="col-md-4 service-box">
+                        <i class="fa-sharp fa-solid fa-vest-patches"></i>
+                        <h4>Ilustrador de Moda</h4>
+                        <p>elabora desenhos técnicos e cria ilustrações que podem ser usadas em revistas, campanhas
+                            publicitárias e até vendidas como obras de arte.</p>
+                    </div>
+
+                    <!-- Sexto tópico -->
+                    <div class="col-md-4 service-box">
+                        <i class="fa-solid fa-shirt"></i>
+                        <h4>Personal Stylist</h4>
+                        <p>orienta pessoas dando dicas de como se vestir, o que favorece melhor cada tipo de corpo e
+                            como combinar estampas e acessórios.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nossa equipe -->
+            <div id="data-area">
+                <div class="container">
+                    <div class="row">
+                        <h3 class="main-title">Nossa equipe</h3>
+
+                        <!-- Primeira pessoa da equipe -->
+                        <div class="col-md-3 circle-box">
+                            <div id="circleA">
+                                <img src="img/face-peoples-primeira.jpg" class="img-lfuid img-thumbnail" alt="">
+                                <p>Nome da pessoa </p>
                             </div>
+                        </div>
 
+                        <!-- Segunda pessoa da equipe -->
+                        <div class="col-md-3 circle-box">
+                            <div id="circleB">
+                                <img src="img/face-peoples-segundo.jpg" class="img-lfuid img-thumbnail" alt="">
+                                <p>Nome da pessoa </p>
+                            </div>
+                        </div>
+
+                        <!-- terceira pessoa da equipe -->
+                        <div class="col-md-3 circle-box">
+                            <div id="circleC">
+
+                                <img src="img/face-peoples-terceiro.jpg" class="img-lfuid img-thumbnail" alt="">
+                                <p>Nome da pessoa </p>
+                            </div>
+                        </div>
+
+                        <!-- Quarta pessoa da equipe -->
+                        <div class="col-md-3 circle-box">
+                            <div id="circleD">
+                                <img src="img/face-peoples-quarta.jpg" class="img-lfuid img-thumbnail" alt="">
+                                <p>Nome da pessoa </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </main>
 </body>
 
 </html>
